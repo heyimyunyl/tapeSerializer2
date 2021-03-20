@@ -6,7 +6,6 @@ $global:ProgressPreference = 'SilentlyContinue'
 SET version=1.2.0
 TITLE tapeSerializer2
 mode con: cols=100 lines=32
-color 0D
 goto :startScreen
 
 
