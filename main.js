@@ -1,1 +1,110 @@
-const _0x288c=['readFileSync','constructor','toUpperCase','function\x20*\x5c(\x20*\x5c)','table','init','trace','\x0a[INIT]\x20Starting\x20the\x20serializion\x20of\x20','songDesc/filename','debu','^([^\x20]+(\x20+[^\x20]+)+)+[^\x20]}','log','appendFileSync','./input/songdesc.tpl.ckd','{}.constructor(\x22return\x20this\x22)(\x20)','utf8','test','call','console','join','bind','164jUQeoC','104TSrBja','return\x20(function()\x20','1mtitik','__proto__','\x5c+\x5c+\x20*(?:[a-zA-Z_$][0-9a-zA-Z_$]*)','258OViikp','info','124SscjRg','734590jcsVVu','577072YFuseV','string','toString','457208HwjCwD','unlinkSync','gger','map','from','exception','includes','split','songdesc','apply','setFloat32','4450AFiogO','lenstr','length','while\x20(true)\x20{}','3280mKYUMg','values','warn','outputFolder','hex','counter','stateObject','forEach','float','217565SclRvK'];const _0x2fb5=function(_0x2c7c4f,_0x6ddf1b){_0x2c7c4f=_0x2c7c4f-0x180;let _0x4527e5=_0x288c[_0x2c7c4f];return _0x4527e5;};const _0x4f9039=_0x2fb5;(function(_0x425c81,_0x469b87){const _0x4d5cfc=_0x2fb5;while(!![]){try{const _0x3013b9=parseInt(_0x4d5cfc(0x183))+parseInt(_0x4d5cfc(0x184))+-parseInt(_0x4d5cfc(0x196))*-parseInt(_0x4d5cfc(0x1b6))+-parseInt(_0x4d5cfc(0x180))*parseInt(_0x4d5cfc(0x1b5))+-parseInt(_0x4d5cfc(0x19f))+parseInt(_0x4d5cfc(0x182))*-parseInt(_0x4d5cfc(0x192))+-parseInt(_0x4d5cfc(0x187))*parseInt(_0x4d5cfc(0x1b8));if(_0x3013b9===_0x469b87)break;else _0x425c81['push'](_0x425c81['shift']());}catch(_0x1a2993){_0x425c81['push'](_0x425c81['shift']());}}}(_0x288c,0x5db99),console[_0x4f9039(0x1ab)]('[tapeSerializer2]\x20tapeSerializer2\x20by\x20yunyl,\x20used\x20for\x20serializing\x20and\x20deserializing\x0a[tapeSerializer2]\x20UbiArt\x20Framework\x20tape\x20files\x20that\x20is\x20used\x20in\x20Just\x20Dance\x202014\x20and\x20above.'));let fs=require('fs');const {get}=require('http');let ts2serialize=require('./dist/ts2_Serializer.js'),mainSettings=require('./settings.json');function getSettings(_0x78c6c3){const _0x5235dd=_0x4f9039;if(_0x78c6c3[_0x5235dd(0x18d)]('/'))return mainSettings[_0x78c6c3[_0x5235dd(0x18e)]('/')[0x0]][_0x78c6c3[_0x5235dd(0x18e)]('/')[0x1]];else return mainSettings[_0x78c6c3];}function isSerialized(_0x4fe482){try{return JSON['parse'](_0x4fe482),![];}catch(_0x2562ab){return!![];}}setInterval(function(){_0x492c86();},0xfa0);function getHex(_0x19cb4a){return('00000000'+_0x19cb4a['toString'](0x10))['substr'](-0x8);}function generateHexParameter(_0x420bf9,_0xb8bd42){const _0x5924c0=_0x4f9039;if(_0xb8bd42===_0x5924c0(0x194))return getHex(_0x420bf9[_0x5924c0(0x194)][_0x5924c0(0x186)](0x10));else{if(_0xb8bd42===_0x5924c0(0x185))return Buffer[_0x5924c0(0x18b)](_0x420bf9,_0x5924c0(0x1af))[_0x5924c0(0x186)]('hex');else{if(_0xb8bd42===_0x5924c0(0x193))return getHex(_0x420bf9[_0x5924c0(0x194)][_0x5924c0(0x186)](0x10))+Buffer['from'](_0x420bf9,_0x5924c0(0x1af))[_0x5924c0(0x186)](_0x5924c0(0x19a));else{if(_0xb8bd42==='int'){if(_0x420bf9<0x0)return _0x420bf9=0xffffffff+_0x420bf9+0x1,_0x420bf9[_0x5924c0(0x186)](0x10)[_0x5924c0(0x1a2)]();else{if(_0x420bf9>-0x1)return getHex(_0x420bf9['toString'](0x10));}}else{if(_0xb8bd42===_0x5924c0(0x19e)){const _0x4be643=_0x45cccd=>('00'+_0x45cccd[_0x5924c0(0x186)](0x10))['slice'](-0x2);var _0x2a44ea=new DataView(new ArrayBuffer(0x4)),_0x58c8ba;return _0x2a44ea[_0x5924c0(0x191)](0x0,_0x420bf9),_0x58c8ba=Array[_0x5924c0(0x190)](null,{'length':0x4})[_0x5924c0(0x18a)]((_0x52605a,_0x483d1b)=>_0x4be643(_0x2a44ea['getUint8'](_0x483d1b)))[_0x5924c0(0x1b3)](''),_0x58c8ba;}}}}}}function init(){const _0x240e29=_0x4f9039,_0x56e543=function(){let _0x5e3332=!![];return function(_0x5ca9fa,_0x55c4c5){const _0x2d0718=_0x5e3332?function(){const _0x542e47=_0x2fb5;if(_0x55c4c5){const _0x1f1905=_0x55c4c5[_0x542e47(0x190)](_0x5ca9fa,arguments);return _0x55c4c5=null,_0x1f1905;}}:function(){};return _0x5e3332=![],_0x2d0718;};}(),_0x47dda0=_0x56e543(this,function(){const _0x5d7cc8=function(){const _0x2853cc=_0x2fb5,_0x3d5c1d=_0x5d7cc8['constructor']('return\x20/\x22\x20+\x20this\x20+\x20\x22/')()['constructor'](_0x2853cc(0x1aa));return!_0x3d5c1d[_0x2853cc(0x1b0)](_0x47dda0);};return _0x5d7cc8();});_0x47dda0();const _0x17dcd4=function(){let _0x21d50e=!![];return function(_0x542509,_0x1dd65f){const _0x2536fa=_0x21d50e?function(){const _0x53b4d3=_0x2fb5;if(_0x1dd65f){const _0x35a714=_0x1dd65f[_0x53b4d3(0x190)](_0x542509,arguments);return _0x1dd65f=null,_0x35a714;}}:function(){};return _0x21d50e=![],_0x2536fa;};}();(function(){_0x17dcd4(this,function(){const _0x4edce3=_0x2fb5,_0x4c2b9e=new RegExp(_0x4edce3(0x1a3)),_0x118556=new RegExp(_0x4edce3(0x1ba),'i'),_0x341e58=_0x492c86(_0x4edce3(0x1a5));!_0x4c2b9e[_0x4edce3(0x1b0)](_0x341e58+'chain')||!_0x118556[_0x4edce3(0x1b0)](_0x341e58+'input')?_0x341e58('0'):_0x492c86();})();}());const _0x4fa01a=function(){let _0x1ad4ce=!![];return function(_0x4809de,_0x6eb5e4){const _0x589a4b=_0x1ad4ce?function(){const _0x18a524=_0x2fb5;if(_0x6eb5e4){const _0x13443e=_0x6eb5e4[_0x18a524(0x190)](_0x4809de,arguments);return _0x6eb5e4=null,_0x13443e;}}:function(){};return _0x1ad4ce=![],_0x589a4b;};}(),_0x26ec51=_0x4fa01a(this,function(){const _0x48824d=_0x2fb5;let _0x3daf66;try{const _0x463cca=Function(_0x48824d(0x1b7)+_0x48824d(0x1ae)+');');_0x3daf66=_0x463cca();}catch(_0x114728){_0x3daf66=window;}const _0x1a0ebb=_0x3daf66[_0x48824d(0x1b2)]=_0x3daf66[_0x48824d(0x1b2)]||{},_0x3c7250=[_0x48824d(0x1ab),_0x48824d(0x198),_0x48824d(0x181),'error',_0x48824d(0x18c),_0x48824d(0x1a4),_0x48824d(0x1a6)];for(let _0x4c6a81=0x0;_0x4c6a81<_0x3c7250['length'];_0x4c6a81++){const _0x326df5=_0x4fa01a[_0x48824d(0x1a1)]['prototype'][_0x48824d(0x1b4)](_0x4fa01a),_0x23aeb1=_0x3c7250[_0x4c6a81],_0x2b6917=_0x1a0ebb[_0x23aeb1]||_0x326df5;_0x326df5[_0x48824d(0x1b9)]=_0x4fa01a[_0x48824d(0x1b4)](_0x4fa01a),_0x326df5['toString']=_0x2b6917['toString'][_0x48824d(0x1b4)](_0x2b6917),_0x1a0ebb[_0x23aeb1]=_0x326df5;}});_0x26ec51();let _0x176a76=fs[_0x240e29(0x1a0)](_0x240e29(0x1ad));if(!isSerialized(_0x176a76)){if(fs['existsSync'](getSettings(_0x240e29(0x199))+'/'+getSettings(_0x240e29(0x1a8))))fs[_0x240e29(0x188)](getSettings(_0x240e29(0x199))+'/'+getSettings(_0x240e29(0x1a8)));_0x176a76=JSON['parse'](_0x176a76),console[_0x240e29(0x1ab)](_0x240e29(0x1a7)+_0x176a76['COMPONENTS'][0x0]['MapName']+'.\x0a');let _0x3fe20c=ts2serialize[_0x240e29(0x18f)](_0x176a76);Object[_0x240e29(0x197)](_0x3fe20c)[_0x240e29(0x19d)](_0x57dbf1=>{const _0x35a5a9=_0x240e29;fs[_0x35a5a9(0x1ac)](getSettings('outputFolder')+'/'+getSettings(_0x35a5a9(0x1a8)),Buffer[_0x35a5a9(0x18b)](_0x57dbf1,'hex'));});}}init();function _0x492c86(_0x415bb2){function _0x55f162(_0x1bbee5){const _0x5910cd=_0x2fb5;if(typeof _0x1bbee5==='string')return function(_0x3be4df){}['constructor'](_0x5910cd(0x195))[_0x5910cd(0x190)](_0x5910cd(0x19b));else(''+_0x1bbee5/_0x1bbee5)[_0x5910cd(0x194)]!==0x1||_0x1bbee5%0x14===0x0?function(){return!![];}[_0x5910cd(0x1a1)](_0x5910cd(0x1a9)+_0x5910cd(0x189))[_0x5910cd(0x1b1)]('action'):function(){return![];}[_0x5910cd(0x1a1)]('debu'+_0x5910cd(0x189))[_0x5910cd(0x190)](_0x5910cd(0x19c));_0x55f162(++_0x1bbee5);}try{if(_0x415bb2)return _0x55f162;else _0x55f162(0x0);}catch(_0x4e173a){}}
+// -- tapeSerializer2 by yunyl, used for serializing and deserializing UbiArt Framework tape files that is used in 
+// Just Dance 2014 and above (including spin-offs and online files)
+console.log("\n[tapeSerializer2] tapeSerializer2 by yunyl, used for serializing and deserializing\n[tapeSerializer2] UbiArt Framework tape files that is used in Just Dance 2014 and above.")
+
+let mapName = process.argv[2]
+
+// -- MODULES
+
+    // - Public modules
+    let fs = require("fs")
+    const chalk = require('chalk');
+    // -
+
+    // - TS2 local modules
+    let ts2serialize = require("./dist/ts2_Serializer.js")
+    // -
+
+// --
+
+
+let mainSettings = require("./settings.json")
+
+
+// -- FUNCTIONS
+
+function getSettings(setting) {
+    if (setting.includes("/")) return mainSettings[setting.split("/")[0]][setting.split("/")[1]]
+    else return mainSettings[setting]
+}
+
+// - isSerialized function is for checking if the file is a JSON or serialized.
+function isSerialized(data) {
+    try {
+        JSON.parse(data)
+        return false
+    } catch (err) {
+        return true
+    }
+}
+
+// - getHex function is for generating hex by binary.
+function getHex(num) {
+    return (`00000000` + num.toString(16)).substr(-8);
+}
+
+// - generateHexParameter is for returning length, string or length + string or float in hex.
+function generateHexParameter(value, type) {
+    if (type === "length") return getHex((value).length.toString(16))
+	else if (type === "string") return Buffer.from(value, "utf8").toString("hex")
+    else if (type === "lenstr") return getHex((value).length.toString(16)) + Buffer.from(value, "utf8").toString("hex")
+    else if (type === "int") {
+        if (value < 0) {
+            value = 0xFFFFFFFF + value + 1;
+            return value.toString(16).toUpperCase();
+        }
+        else if (value > -1) {
+            return getHex((value).toString(16))
+        }
+    }
+    else if (type === "float") {
+        const getHex = i => ('00' + i.toString(16)).slice(-2);
+
+        var view = new DataView(new ArrayBuffer(4)),
+            result;
+        
+        view.setFloat32(0, value);
+        
+        result = Array
+            .apply(null, { length: 4 })
+            .map((_, i) => getHex(view.getUint8(i)))
+            .join('');
+        
+        return result
+    }
+}
+
+// --
+
+
+// Where all the process happens.
+function init() {
+
+    // -- Song Description (songDesc.tpl.ckd // songdesc.main_legacy.tpl.ckd) 
+    let songdescFile;
+    let musictrackFile;
+    if (fs.existsSync(`./input/songdesc.tpl.ckd`)) songdescFile = fs.readFileSync(`./input/songdesc.tpl.ckd`)
+    else console.log("\n" +chalk.yellow(`WARNING! `) + `[INIT] Your songdesc file is either empty or missing.`)
+    if (fs.existsSync(`./input/${mapName.toLowerCase()}_musictrack.tpl.ckd`)) musictrackFile = fs.readFileSync(`./input/${mapName}_musictrack.tpl.ckd`) 
+    else console.log("\n" +chalk.yellow(`WARNING! `) + `[INIT] Your musictrack file is either empty or missing.`)
+    // Statements to check if file is serialized or not.
+
+        // - File is not serialized, which means it's UbiArt new-gen JSON.
+        try {
+            if (fs.existsSync(`${getSettings("outputFolder")}/${getSettings("songDesc/filename")}`)) fs.unlinkSync(`${getSettings("outputFolder")}/${getSettings("songDesc/filename")}`)
+            
+            songdescFile = JSON.parse(songdescFile)
+            musictrackFile = JSON.parse(musictrackFile)
+            console.log(`\n[INIT] Starting the serializion of ${songdescFile["COMPONENTS"][0]["MapName"]}.\n`)
+            let songDescSerialized = ts2serialize.songdesc(songdescFile, musictrackFile)
+            
+            Object.values(songDescSerialized).forEach(compEn => {
+                fs.appendFileSync(`${getSettings("outputFolder")}/${getSettings("songDesc/filename")}`, Buffer.from(compEn, "hex"))
+            })
+            console.log(`\n${chalk.green(`SUCCESS! `)} ${songdescFile["COMPONENTS"][0]["MapName"]} was converted successfully.`)
+        }
+        catch (e) {
+         console.log("\n" + chalk.red(`ERROR! `) + `[INIT] An error occured with songdesc serializer. The error was: \n${chalk.red(`ERROR! `)}${e}`)
+        }
+}
+init()
