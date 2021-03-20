@@ -1,0 +1,7 @@
+{
+	"outputFolder": "./output",
+    "songDesc": {
+        "addChallengers": false,
+		"filename": "songdesc.main_legacy.tpl.ckd"
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "__class": "Actor_Template",
+    "WIP": 0,
+    "LOWUPDATE": 0,
+    "UPDATE_LAYER": 0,
+    "PROCEDURAL": 0,
+    "STARTPAUSED": 0,
+    "FORCEISENVIRONMENT": 0,
+    "COMPONENTS": [{
+            "__class": "JD_SongDescTemplate",
+            "MapName": "Example",
+            "JDVersion": 2017,
+            "OriginalJDVersion": 2016,
+            "Artist": "This is an example songdesc file.",
+            "DancerName": "Unknown Dancer",
+            "Title": "This is an example songdesc file.",
+            "Credits": "This is an example songdesc file.",
+            "PhoneImages": {
+                "Cover": "world/maps/example/menuart/textures/example_cover_phone.jpg",
+                "coach1": "world/maps/example/menuart/textures/example_coach_1_phone.png"
+            },
+            "NumCoach": 1,
+            "MainCoach": -1,
+            "Difficulty": 2,
+            "backgroundType": 0,
+            "LyricsType": 0,
+            "Energy": 1,
+            "Tags": ["Extreme", "Main"],
+            "Status": 3,
+            "LocaleID": 4294967295,
+            "MojoValue": 0,
+            "CountInProgression": 1,
+            "DefaultColors": {
+                "lyrics": [1, 1, 0.090196, 0.776471],
+                "theme": [1, 1, 1, 1]
+            },
+            "Paths": {
+                "Avatars": null,
+                "AsyncPlayers": null
+            }
+        }
+    ]
+}
